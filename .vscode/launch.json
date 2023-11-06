@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Current Device",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Xiaomi",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "M2103K19G"
+        },
+        {
+            "name": "Asus",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "ASUS X008D"
+        },
+        {
+            "name": "Chrome",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "Xiaomi",
+                "Asus",
+                "Chrome"
+            ],
+        }
+    ]
+}
